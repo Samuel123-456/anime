@@ -4,7 +4,7 @@
       box-sizing: border-box;
       margin: 0%;
       padding: 0%;
-      margin-inline: 2rem;
+      margin-inline: 3rem;
 
       background-color: #06090f;
       color: #ffff;
@@ -40,7 +40,7 @@
 
 .header-menu .nav-menu .ul-menu {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       margin: 0;
       padding: 0;
 }
@@ -55,6 +55,7 @@
 
 .header-menu .nav-menu .ul-menu li a {
       text-decoration: none;
+      margin-inline: 15px;
 }
 
 .header-menu .nav-menu input[type='search'] {
@@ -91,7 +92,7 @@
 .section-menu-secondary .nav-menu ul li a{
       text-decoration: none;
       margin: 0;
-      padding-inline: 50px;
+      padding-inline: 40px;
       padding-block: 10px;
       border-radius: 30px;
       border: 1px solid #151b26;
@@ -121,8 +122,9 @@
 /* SECTION NEWS */
 .section-news {
       font-family: 'Robik';
-      margin: 0;
+      margin-inline: 0;
       padding: 0;
+      margin-bottom: 80px;
 }
 
 .section-news h2 {
@@ -137,7 +139,7 @@
 .section-news .div-news {
       position: relative;
       margin-block: 20px;
-      margin-inline: 2rem;
+      margin-inline: 3rem;
       border-radius: 4px;
       padding: 0;
       height: 350px;
@@ -145,7 +147,7 @@
       flex-direction: column;
       background-repeat: no-repeat;
       background-size: cover;
-      background-image: url('../images/onepunchman.jpeg');
+      background-image: url('../images/images.jpeg');
       justify-content: end;
 
 }
@@ -157,7 +159,7 @@
 
 .section-news .div-news .div-conteudo {
       margin-block: 50px;
-      margin-inline: 2px;
+      margin-inline: 3px;
 
 }
 
@@ -172,4 +174,98 @@
       margin-block: 10px;
       font-weight: 100;
 
+}
+
+/* SECTION UPDATES */
+.section-updates {
+      padding: 0;
+      margin: 0;
+      
+}
+
+.section-updates h2 {
+      margin-block: 20px;
+      font-weight: 400;
+}
+
+.section-updates .nav-card-update {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      padding: 0;
+}
+
+
+
+.section-updates .nav-card-update .card-update {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+      align-items: center;
+}
+
+
+.section-updates .nav-card-update .card-update .div-img {
+      width: 150px;
+      border-radius: 4px;
+      height: 200px;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      margin: 0;
+      padding: 0;
+      
+}
+
+.section-updates .nav-card-update .card-update p {
+      background-color: transparent;
+      margin-block: 10px;
+      font-size: 8pt;
+      font-weight: 100;
+      align-items: center;
+      margin: 10px;
+}
+
+
+.section-updates .nav-card-update .card-update h4 {
+      font-weight: 100;
+      font-size: 10pt;
+      margin-block: 10px;
+}
+/* .section-updates .nav-card-update .card-update .div-img{
+      background-image: url('');
+}
+ */
+
+.section-updates .div-btn {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-block: 30px;
+}
+
+.section-updates .div-btn input[type='submit'] {
+      background-color: red;
+      padding-inline: 40px;
+      padding-block: 10px;
+      border-radius: 4px;
+      border: none;
+      background-color: #151b26;
+}
+
+hr {
+      border-color: #151b26;
+}
+
+footer .div-footer {
+      margin-block: 50px;
+      display: flex;
+      justify-content: space-around;
+}
+
+footer .div-footer p {
+      font-size: 10pt;
+      font-weight: 100;
 }
