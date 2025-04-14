@@ -8,7 +8,11 @@
 
       background-color: #06090f;
       color: #ffff;
+      font-family: "Rubik", sans-serif;
+
 }
+
+
 
 /* HEADER */
 
@@ -16,9 +20,10 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-
-      font-family: 'Courier New', Courier, monospace;
-      margin-top: 20px;
+      margin-top: 30px;
+      margin-bottom: 70px;
+      padding: 0;
+      margin-inline: 0;
 
 }
 
@@ -60,4 +65,111 @@
       outline: none;
       font-size: 12pt;
       
+}
+
+/* SECTION MENU */
+.section-menu-secondary {
+      position: relative;
+      margin: 0;
+      padding: 0;
+      height: 100px;
+}
+
+
+.section-menu-secondary .nav-menu ul{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 30px;
+}
+.section-menu-secondary .nav-menu ul li{
+      list-style: none;
+      margin: 0;
+}
+.section-menu-secondary .nav-menu ul li a{
+      text-decoration: none;
+      margin: 0;
+      padding-inline: 50px;
+      padding-block: 10px;
+      border-radius: 30px;
+      border: 1px solid #151b26;
+      transition: 0.5s;
+
+}
+.section-menu-secondary .nav-menu ul li a:hover{
+      background-color: #151b26;
+}
+
+/* DIV PROGRESS */
+.div-progress {
+      background-color: #151b26;
+      height: 3px;
+      border-radius: 30px;
+}
+
+.div-progress .div-going {
+      position: relative;
+      width: 20%;
+      border-radius: 30px;
+      background-color: #00a3ff;
+      height: 100%;
+      margin: 0;
+}
+
+/* SECTION NEWS */
+.section-news {
+      font-family: 'Robik';
+      margin: 0;
+      padding: 0;
+}
+
+.section-news h2 {
+      font-weight: 400;
+}
+
+.section-news p{
+      margin-block: 10px;
+      font-weight: 100;
+}
+
+.section-news .div-news {
+      position: relative;
+      margin-block: 20px;
+      margin-inline: 2rem;
+      border-radius: 4px;
+      padding: 0;
+      height: 350px;
+      display: flex;
+      flex-direction: column;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url('../images/onepunchman.jpeg');
+      justify-content: end;
+
+}
+
+
+.section-news .div-news *{
+      background-color: transparent;
+}
+
+.section-news .div-news .div-conteudo {
+      margin-block: 50px;
+      margin-inline: 2px;
+
+}
+
+.section-news .div-news .div-conteudo h2{
+      font-weight: 500;
+}
+
+.section-news .div-news .div-conteudo p{
+      width: 500px;
+      font-size: 10pt;
+      line-height: 1.5;
+      margin-block: 10px;
+      font-weight: 100;
+
 }
