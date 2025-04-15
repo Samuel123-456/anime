@@ -1,0 +1,172 @@
+.section-watch {
+      margin: 0;
+      padding: 0;
+      margin-inline: 3rem;
+
+}
+
+.titles-videos {
+      display: flex;
+      padding: 0;
+      margin: 0;
+      justify-content: space-between;
+      margin-block: 15px;
+}
+
+.titles-videos h4 {
+      font-size: 12pt;
+      font-weight: 200;
+}
+
+.section-watch h3 {
+      margin-inline: 0;
+      padding: 0;
+}
+
+.section-watch .section-videos-side {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      height: 420px;
+}
+
+
+
+.section-watch .section-videos-side .div-video {
+      margin: 0;
+      padding: 0;
+      width: 68%;
+      position: relative;
+      
+}
+.section-watch .section-videos-side .div-video video{
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      height: 100%;
+}
+.section-watch .section-videos-side nav{
+      margin: 0;
+      padding: 0;
+      width: 30%;
+      position: relative;
+      
+}
+
+.section-watch section nav div {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      background-color: #151b26;
+      width: 100%;
+      margin-bottom: 5px;
+}
+
+.section-watch section nav div img {
+      margin: 0;
+      padding: 0;
+      height: 100px;
+      width: 150px;
+}
+
+.section-watch section nav div div {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+
+}
+
+.section-watch section nav div div * {
+      background-color: transparent;
+      font-size: 10pt;
+}
+
+/* SECTION ABOUT VIDEOS */
+.section-about-video * {
+      margin: 0;
+      padding: 0;
+}
+
+.section-about-video {
+      display: flex;
+      margin-block: 50px;
+}
+
+.section-about-video .nav-details {
+      display: flex;
+      flex-direction: column;
+      margin-left: 20px;
+
+      justify-content: space-between;
+}
+
+.section-about-video .nav-details span, p {
+      font-weight: 100;
+}
+
+.section-about-video .nav-details div {
+      display: flex;
+      flex-direction: column;
+}
+
+.section-about-video div img {
+      border-radius: 10px;
+      height: 250px;
+}
+
+.section-about-video .nav-details .div-menu-2 {
+      margin-bottom: 20px;
+}
+
+.section-about-video .nav-details div *{
+      margin-bottom: 10px;
+      text-align: justify;
+}
+
+/* SECTION COMENTARIOS */
+.section-coments * {
+      margin: 0;
+      padding: 0;
+}
+
+.section-coments {
+      margin-block: 50px;
+}
+
+.section-coments h3 {
+      margin-block: 10px;
+}
+
+.section-coments .nav-coments .coments {
+      display: flex;
+      align-items: center;
+      margin-block: 10px;
+}
+
+/* .section-coments .nav-coments .coments hr {
+      border: solid;
+} */
+
+.section-coments .nav-coments .coments img {
+      width: 50px;
+      height: 50px;
+      border-radius: 30px;
+}
+
+.section-coments .nav-coments .coments .coments-details {
+      margin-inline: 50px;
+}
+
+.section-coments .nav-coments .coments .coments-details h3 {
+      font-size: 10pt;
+      font-weight: 400;
+}
+
+.section-coments .nav-coments .coments .coments-details p {
+      font-size: 10pt;
+      font-weight: 100;
+}
+
