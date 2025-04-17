@@ -33,6 +33,10 @@ a {
 
 }
 
+.header-menu .nav-menu .ul-menu .icon{
+      display: none;
+      font-size: 16pt;
+}
 
 .header-menu .nav-menu {
       display: flex;
@@ -133,8 +137,14 @@ a {
       margin-bottom: 80px;
 }
 
-.section-news h2 {
+h2 {
+      font-weight: 500;
+      margin-block: 50px;
+}
+
+h3 {
       font-weight: 400;
+      font-size: 20pt;
 }
 
 .section-news p{
@@ -169,9 +179,6 @@ a {
 
 }
 
-.section-news .div-news .div-conteudo h2{
-      font-weight: 500;
-}
 
 .section-news .div-news .div-conteudo p{
       width: 500px;
@@ -187,11 +194,6 @@ a {
       padding: 0;
       margin: 0;
       
-}
-
-.section-updates h2 {
-      margin-block: 20px;
-      font-weight: 400;
 }
 
 .section-updates .nav-card-update {
@@ -214,7 +216,7 @@ a {
 
 .section-updates .nav-card-update .card-update .div-img {
       width: 150px;
-      border-radius: 4px;
+      border-radius: 6px;
       height: 200px;
       align-items: center;
       display: flex;
@@ -240,25 +242,23 @@ a {
       font-size: 10pt;
       margin-block: 10px;
 }
-/* .section-updates .nav-card-update .card-update .div-img{
-      background-image: url('');
-}
- */
 
-.section-updates .div-btn {
+
+.div-btn {
       display: flex;
       align-items: center;
       justify-content: space-around;
       margin-block: 30px;
 }
 
-.section-updates .div-btn input[type='submit'] {
+.div-btn input[type='submit'] {
       background-color: red;
       padding-inline: 40px;
       padding-block: 10px;
       border-radius: 4px;
       border: none;
       background-color: #151b26;
+      margin-block: 10px;
 }
 
 hr {
@@ -274,4 +274,104 @@ footer .div-footer {
 footer .div-footer p {
       font-size: 10pt;
       font-weight: 100;
+      text-align: center;
+}
+
+
+
+@media (max-width: 1040px) {
+      *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            margin-inline: 1rem;
+
+      }
+      body *{
+            margin: 0;
+            padding: 0;
+
+            box-sizing: border-box;
+            margin-inline: 0rem;
+      }
+
+      h2 {
+            font-weight: 500;
+            margin-block: 50px;
+      }
+      
+      #desktop {
+            display: none;
+      }
+
+      .div-progress .div-going {
+            width: 40%;
+      }
+
+
+      .header-menu .nav-menu .ul-menu a, input{
+            display: none;
+      }
+
+      .header-menu .nav-menu .ul-menu .icon{
+            display: flex;
+      }
+
+      .section-menu-secondary *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+      }
+
+      .section-menu-secondary .nav-menu{
+            margin-inline: 0;
+      }
+
+      .section-menu-secondary .nav-menu .ul-menu{
+            justify-content: space-between;
+      }
+
+      .section-menu-secondary .nav-menu .ul-menu a{
+            padding-inline: 40px;
+            
+      }
+      
+      .section-news .div-news {
+            margin: 0;
+      }
+
+      .section-news .div-news .div-conteudo p {
+            width: fit-content;
+      }
+
+/*       .div-btn{
+            display: flex;
+            
+      } */
+
+      .div-btn input[type='submit'] {
+            display: flex;
+            
+      }
+    
+}
+
+@media (max-width: 508px) {
+      #tablet {
+            display: none;
+      }
+
+
+      .section-menu-secondary .nav-menu .ul-menu li a{
+            padding-inline: 20px;
+            margin: 0;
+      }
+
+      .div-progress .div-going {
+            width: 70%;
+      }
+
+      .div-btn input[type='submit'] {
+            padding-inline: 60px;
+      }
 }

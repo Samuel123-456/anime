@@ -11,6 +11,7 @@
       margin: 0;
       justify-content: space-between;
       margin-block: 15px;
+      align-items: center;
 }
 
 .titles-videos h4 {
@@ -170,3 +171,95 @@
       font-weight: 100;
 }
 
+
+@media (max-width: 1040px) {
+      .titles-videos h4{
+            display: none;
+      }
+
+      .section-watch {
+            margin-inline: 0;
+            margin: 0;
+            padding: 0;
+      }
+
+      .section-watch .section-videos-side .div-video, video {
+            width: 100%;
+            background-color: #151b26;
+      }
+      
+      .section-watch .section-videos-side nav{
+            display: none;
+            margin: 0;
+            padding: 0;
+
+      }
+
+
+      .section-videos-side *{
+            margin: 0;
+            padding: 0;
+      }
+
+      .section-about-video #div-img {
+            display: none;
+      }
+
+      .section-about-video .nav-details * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+      }
+
+      .section-about-video {
+            margin-inline: 0;
+      }
+
+      .section-about-video .nav-details{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            justify-content: space-between;
+            margin: 0;
+      }
+
+      .nav-details .div-menu-1 {
+            width: 3000px;
+            margin: 0;
+            padding: 0;
+            
+      }
+      
+      .nav-details .div-menu-1 p{
+            width: fit-content;
+            padding-right: 100%;
+            padding: 0;
+            margin-block: 2px;
+            font-family: "Rubik", sans-serif;
+
+      }
+
+      .nav-details .div-menu-2 p{
+            font-family: "Rubik", sans-serif;
+      }
+
+}
+
+@media (max-width: 562px) {
+
+      .section-about-video {
+            margin-block-start: 50px;
+      }
+
+      .section-about-video .nav-details {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+            display: block;
+      }
+
+      .section-about-video .nav-details .div-menu-2 {
+            margin-block-start: 40px;
+      }
+}
